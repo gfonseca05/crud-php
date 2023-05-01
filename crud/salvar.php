@@ -27,8 +27,8 @@
 
                 $sql = "UPDATE usuarios SET nome='{$nome}',
                                             email='{$email}',
-                                            senha='{$senha},
-                                            data_nasc='{$data_nasc}
+                                            senha='{$senha}',
+                                            data_nasc='{$data_nasc}'
                                         WHERE
                                             id =".$_REQUEST['id'];
                 $result = $conf->query($sql);
